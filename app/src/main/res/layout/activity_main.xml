@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wagner.loch.vidadeestudante.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolhas possíveis na vida de um estudante de Engenharia:"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:id="@+id/textViewTitulo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dormir"
+            android:id="@+id/textViewDormir"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/textViewTitulo"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchDormir"
+            android:layout_alignTop="@+id/textViewDormir"
+            android:layout_alignBottom="@+id/textViewDormir"
+            android:layout_toRightOf="@+id/textViewBoasNotas"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vida Social"
+            android:id="@+id/textViewVidaSocial"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/textViewDormir"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchVidaSocial"
+            android:layout_alignTop="@+id/textViewVidaSocial"
+            android:layout_alignBottom="@+id/textViewVidaSocial"
+            android:layout_toRightOf="@+id/textViewBoasNotas"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boas Notas        "
+            android:id="@+id/textViewBoasNotas"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/textViewVidaSocial"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchBoasNotas"
+            android:layout_below="@id/switchVidaSocial"
+            android:layout_alignTop="@+id/textViewBoasNotas"
+            android:layout_alignBottom="@+id/textViewBoasNotas"
+            android:layout_toRightOf="@+id/textViewBoasNotas"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewMensagem"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_below="@+id/textViewBoasNotas"
+            android:layout_marginTop="50dp"
+            android:text="Como você pode perceber,\nnão é fácil conciliar a vida acadêmica\ncom a vida social.\nLevando esse App como exemplo,\npense bem antes de falar que o papel\nde um estudante e ''só'' estudar!"
+            android:alpha="0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desenvolvido por Wagner Loch\nwloch@inf.ufpel.edu.br"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
