@@ -8,3 +8,12 @@ O problema é que quem fala isso não conhece realmente como é a vida acadêmic
 
 [Download APK, clique aqui.](https://drive.google.com/file/d/0B25ho9lfGzeEdXp4ajU2dFBmaWs/view?usp=sharing)
 
+Ao clicar nos botões, uma mensagem é exibida conforme pode ser visto pelas imagens abaixo:
+
+![Screenshot](Screenshots/1.png)
+![Screenshot](Screenshots/2.png)
+![Screenshot](Screenshots/3.png)
+![Screenshot](Screenshots/4.png)
+![Screenshot](Screenshots/5.png)
+![Screenshot](Screenshots/6.png)
+![Screenshot](Screenshots/7.png)
